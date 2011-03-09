@@ -51,6 +51,7 @@ position:relative;
 font-size:24px;
 text-align:left;
 background-image: url(_Media/sectionbg.jpg); 
+padding:3px 8px;
 }
 div.section p{
 background:0;

@@ -1,3 +1,2 @@
-
 sync:
-	scp -r _Media *.html page.js *.css reza@alf1.cii.fc.ul.pt:public_html/
+	rsync -varz _Media *.html page.js *.css reza@alfmail.cii.fc.ul.pt:public_html/
