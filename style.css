@@ -59,3 +59,14 @@ font:16px bold;
 text-align:left;
 position:relative;
 }
+div.caption{
+font:10px bold;
+text-align:center;
+}
+.section img{
+border:0;
+}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline ; color: red;}
