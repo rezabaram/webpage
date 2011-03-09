@@ -1,0 +1,60 @@
+body.test{
+background-repeat: repeat-x; 
+background-image: url(_Media/background.png); 
+background-color: #bbcccc;  alt="Gradient Texture gradient.png"
+font-size:24px;
+border-style:groove;
+margin:10px 100px;
+padding:1px 10px;
+min-height:900px;
+width:700px;
+}
+
+.page{
+    margin-bottom: 1px;
+    width: 700px;
+}
+
+.page .header{
+font-size:34px;
+text-align:center;
+color:black;
+background: rgb(30, 107, 178);
+padding:5px;
+}
+
+.page .header .aff{
+font-size:14px;
+text-align:center;
+color:black;
+}   
+table.header {
+position:relative;
+top:6px;
+border-style:groove;
+}
+
+table.menu td{
+width:60px;
+}
+table.menu td a{
+color:red;
+}
+
+div.section{
+position:absolute;
+width:320px;
+}
+
+div.section div.title{
+position:relative;
+font-size:24px;
+text-align:left;
+background-image: url(_Media/sectionbg.jpg); 
+}
+div.section p{
+background:0;
+font:16px bold;
+text-align:left;
+position:relative;
+}
