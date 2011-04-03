@@ -1,13 +1,10 @@
 body.test{
-background-repeat: repeat-x; 
-background-image: url(_Media/background.png); 
-background-color: #bbcccc;  alt="Gradient Texture gradient.png"
+background-repeat: repeat; 
+background-image: url(_Media/b12.png); 
 font-size:24px;
 margin:1px auto;
-padding:0px 3px;
 min-height:500;
-width:700px;
-border-style:groove;
+width:800px;
 }
 
 .page{
@@ -15,8 +12,19 @@ border-style:groove;
     width: auto;
 }
 
+h1.header{
+font-size:34px;
+text-align:center;
+color:black;
+background: rgb(30, 107, 178);
+background: -moz-linear-gradient(top, #55aaee, #003366);
+background: -webkit-gradient(linear, left top, left bottom, from(#55aaee), to(#003366));
+padding:0px 0px;
+margin:0px 0px;
+}
 .page .header{
 font-size:34px;
+font-weight:normal;
 text-align:center;
 color:black;
 background: rgb(30, 107, 178);
@@ -31,15 +39,23 @@ text-align:center;
 color:black;
 }   
 
-div.body{
+div.testpage{
+float:left;
+}
 
+br.clear{
+clear:both;
 }
 
 div.column{
-position:relative;
-width:340px;
+width:400px;
+float:left;
 }
 
+div.rcolumn{
+width:400px;
+float:left;
+}
 table div.body{
 position:relative;
 left:-20px;
@@ -49,11 +65,10 @@ left:-20px;
 table.header {
 position:relative;
 top:6px;
-border-style:groove;
 }
 
 div.table{
-font-size:13px;
+font-size:15px;
 background-repeat: repeat-x; 
 background-image: url(_Media/topnav_bg.gif); 
 }
@@ -61,8 +76,8 @@ background-image: url(_Media/topnav_bg.gif);
 
 
 div table.menu td{
-padding:0px 0px;
-width:80px;
+text-align:left;
+padding:0px 10px 0px 0px;
 }
 table.menu td a{
 color:blue;
@@ -71,8 +86,9 @@ color:blue;
 div.section{
 
 position:relative;
-width:320px;
+width:380px;
 margin:auto;
+text-align:center;
 }
 
 div.section div.title{
@@ -107,3 +123,23 @@ a:hover {text-decoration: underline ; color: red;}
 div.separator{
 background:rgb(200,200,200); height:5px;
 }
+
+
+/*   PUBLICATION   */
+div.publication{
+font:18px normal;
+min-height:10px;
+padding:5px 0px;
+}
+div.publication .title{
+font-style:italic;
+color:rgb(20,20,100);
+}
+div.publication .year{
+font-weight:bold;
+}
+
+div.publication .authors{
+color:rgb(0,0,0);
+}
+
